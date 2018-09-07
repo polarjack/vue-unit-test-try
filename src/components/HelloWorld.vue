@@ -1,7 +1,8 @@
 <template>
-  <v-container fluid>
+  <v-container fluid class="hello">
     <v-slide-y-transition mode="out-in">
       <v-layout column align-center>
+        <h1>Welcome to Your Vue.js App</h1>
         <img src="@/assets/logo.png" alt="Vuetify.js" class="mb-5">
         <blockquote>
           &#8220;First, solve the problem. Then, write the code.&#8221;
